@@ -7,7 +7,7 @@
 <% @posts.each do |post| %>
   <div class="jumbotron" style="max-width: 500px; margin: 80px auto">
     <h3>Posted by <%= post.user.email %></h3>
-    <%= image_tag post.image, class: 'img-responsive' %>
+    <%= image_tag post.post_image, class: 'img-responsive' %>
     <p><%= post.body %></p>
   </div>
 <% end %>

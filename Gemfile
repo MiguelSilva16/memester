@@ -20,6 +20,10 @@ gem 'jquery-rails'
 
 gem 'devise'
 
+gem 'figaro'
+gem 'paperclip'
+gem 'aws-sdk', '~> 2.3'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
