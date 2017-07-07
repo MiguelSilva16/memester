@@ -1,2 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    color: #fff;
+    background-color: Black;
+}
+
+.jumbotron {
+    font-family: 'Indie Flower';
+    background-color: #1c6b0a;
+}
